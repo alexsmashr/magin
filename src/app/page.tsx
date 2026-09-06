@@ -16,8 +16,8 @@ export default function Home() {
         <Hero />
         <TrustSignals />
         <IntegratedSolutions />
-        <Process />
         <Cases />
+        <Process />
         <MaginExplains />
         <Contact />
       </main>
