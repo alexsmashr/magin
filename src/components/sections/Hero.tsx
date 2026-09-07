@@ -3,7 +3,7 @@ export default function Hero() {
     <section className="hero-banner" aria-labelledby="hero-heading">
       <div className="hero-banner__frame">
         <div className="hero-banner__media" aria-hidden="true">
-          {/* img nativo: conserva alpha del PNG (Next Image a veces aplana a blanco) */}
+          {/* img nativo: conserva alpha del PNG; decorativo (texto lleva el mensaje) */}
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
             src="/brand/hero-banner.png?v=user-original"
@@ -22,17 +22,17 @@ export default function Hero() {
 
           <h1
             id="hero-heading"
-            className="hero-banner__title mt-3 font-[family-name:var(--font-poppins)] font-semibold tracking-[-0.035em] sm:mt-4"
+            className="hero-banner__title mt-3 font-[family-name:var(--font-poppins)] font-semibold tracking-[-0.035em] sm:mt-5"
           >
             Tu proyecto,
             <br />
             <span className="text-magin-burgundy-bright">sin límites.</span>
           </h1>
 
-          <p className="hero-banner__text mt-4 max-w-[32rem] font-[family-name:var(--font-inter)] text-[0.9375rem] leading-[1.65] sm:mt-5 sm:text-base sm:leading-[1.7]">
-            Integramos estrategia, contenidos, diseño y tecnología para
-            transformar ideas en experiencias que conectan, comunican y generan
-            valor.
+          <p className="hero-banner__text mt-4 max-w-[34rem] font-[family-name:var(--font-inter)] text-[0.9375rem] leading-[1.65] sm:mt-5 sm:text-base sm:leading-[1.7]">
+            MAGÍN integra comunicación, contenidos y tecnología para desarrollar
+            soluciones dirigidas a organizaciones. Combinamos estrategia,
+            diseño y capacidades digitales según cada proyecto.
           </p>
         </div>
       </div>

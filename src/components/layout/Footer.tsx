@@ -13,17 +13,17 @@ const navLinks = [
 ] as const;
 
 const solutionLinks = [
-  { label: "Estrategia y Comunicación", href: "#soluciones" },
-  { label: "Contenido y Diseño", href: "#soluciones" },
-  { label: "Tecnología e Innovación", href: "#soluciones" },
+  { label: "Estrategia y Comunicación", href: "/#estrategia-comunicacion" },
+  { label: "Contenido y Diseño", href: "/#contenido-diseno" },
+  { label: "Tecnología e Innovación", href: "/#tecnologia-innovacion" },
 ] as const;
 
 const capabilityLinks = [
-  { label: "Marketing", href: "#soluciones" },
-  { label: "Audiovisual", href: "#soluciones" },
-  { label: "Diseño Gráfico", href: "#soluciones" },
-  { label: "Informática", href: "#soluciones" },
-  { label: "New Media", href: "#soluciones" },
+  { label: "Marketing", href: "/#soluciones" },
+  { label: "Audiovisual", href: "/#soluciones" },
+  { label: "Diseño Gráfico", href: "/#soluciones" },
+  { label: "Informática", href: "/#soluciones" },
+  { label: "New Media", href: "/#soluciones" },
 ] as const;
 
 function LinkedInIcon({ className = "" }: { className?: string }) {

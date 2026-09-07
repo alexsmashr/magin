@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#120a14"/>
+      <stop offset="100%" stop-color="#2a1524"/>
+    </linearGradient>
+  </defs>
+  <rect width="1280" height="720" fill="url(#bg)"/>
+  <circle cx="220" cy="520" r="140" fill="#b8244a" opacity="0.25"/>
+  <rect x="720" y="180" width="360" height="220" rx="18" fill="#1c1220" stroke="#b8244a" stroke-opacity="0.4"/>
+  <circle cx="900" cy="290" r="42" fill="#b8244a" opacity="0.55"/>
+  <polygon points="888,268 928,290 888,312" fill="#f4f6fb" opacity="0.85"/>
+  <text x="140" y="640" fill="#f4f6fb" fill-opacity="0.4" font-family="system-ui,sans-serif" font-size="22">MAGÍN · Contenido</text>
+</svg>

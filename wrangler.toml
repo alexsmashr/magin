@@ -1,0 +1,7 @@
+# Cloudflare Workers — sitio estático (export Next.js → carpeta out)
+name = "magin"
+compatibility_date = "2024-11-12"
+
+[assets]
+directory = "./out"
+not_found_handling = "404-page"

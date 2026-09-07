@@ -152,7 +152,7 @@ const capabilities = [
   {
     accent: "marketing" as const,
     letterSrc: "/brand/letters/M-marketing.png",
-    letterAlt: "Letra M — Marketing",
+    letterAlt: "Capacidad MAGÍN: Marketing",
     title: "Marketing",
     description:
       "Estrategia para comprender, conectar y orientar la comunicación.",
@@ -161,7 +161,7 @@ const capabilities = [
   {
     accent: "audiovisual" as const,
     letterSrc: "/brand/letters/A-audiovisual.png",
-    letterAlt: "Letra A — Audiovisual",
+    letterAlt: "Capacidad MAGÍN: Audiovisual",
     title: "Audiovisual",
     description:
       "Contenido audiovisual para explicar, documentar y conectar.",
@@ -170,7 +170,7 @@ const capabilities = [
   {
     accent: "design" as const,
     letterSrc: "/brand/letters/G-diseno-grafico.png",
-    letterAlt: "Letra G — Diseño Gráfico",
+    letterAlt: "Capacidad MAGÍN: Diseño Gráfico",
     title: "Diseño Gráfico",
     description: "Diseño que organiza información y construye identidad.",
     icons: designIcons,
@@ -178,7 +178,7 @@ const capabilities = [
   {
     accent: "informatics" as const,
     letterSrc: "/brand/letters/I-informatica.png",
-    letterAlt: "Letra I — Informática",
+    letterAlt: "Capacidad MAGÍN: Informática y tecnología",
     title: "Informática",
     description:
       "Soluciones digitales desarrolladas según las necesidades del proyecto.",
@@ -187,7 +187,7 @@ const capabilities = [
   {
     accent: "newmedia" as const,
     letterSrc: "/brand/letters/N-new-media.png",
-    letterAlt: "Letra N — New Media",
+    letterAlt: "Capacidad MAGÍN: New Media",
     title: "New Media",
     description:
       "Experiencias digitales que amplían las posibilidades de comunicación.",
@@ -197,14 +197,17 @@ const capabilities = [
 
 const commercialLines = [
   {
+    id: "estrategia-comunicacion",
     title: "Estrategia y Comunicación",
     note: "Principalmente Marketing",
   },
   {
+    id: "contenido-diseno",
     title: "Contenido y Diseño",
     note: "Principalmente Audiovisual y Diseño Gráfico",
   },
   {
+    id: "tecnologia-innovacion",
     title: "Tecnología e Innovación",
     note: "Principalmente Informática y New Media",
   },
@@ -226,10 +229,11 @@ export default function IntegratedSolutions() {
             id="solutions-heading"
             className="mt-3 font-[family-name:var(--font-poppins)] text-[2rem] font-semibold tracking-[-0.03em] text-foreground sm:text-4xl sm:leading-[1.1]"
           >
-            Soluciones integrales
+            Soluciones integrales para organizaciones
           </h2>
           <p className="mx-auto mt-4 max-w-lg font-[family-name:var(--font-inter)] text-base leading-relaxed text-magin-muted sm:text-lg sm:leading-relaxed">
-            Cinco capacidades que se combinan según cada proyecto.
+            Cinco capacidades que se combinan según cada proyecto, no cinco
+            áreas aisladas.
           </p>
         </header>
 
@@ -376,7 +380,11 @@ export default function IntegratedSolutions() {
         <div className="mx-auto mt-16 max-w-4xl sm:mt-20">
           <ul className="solutions-lines flex flex-col gap-6 sm:flex-row sm:justify-between sm:gap-8">
             {commercialLines.map((line) => (
-              <li key={line.title} className="text-center sm:flex-1">
+              <li
+                key={line.title}
+                id={line.id}
+                className="scroll-mt-28 text-center sm:flex-1"
+              >
                 <p className="font-[family-name:var(--font-poppins)] text-sm font-medium text-foreground/90">
                   {line.title}
                 </p>

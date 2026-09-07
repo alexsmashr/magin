@@ -49,10 +49,11 @@ export default function Cases() {
               id="portfolio-heading"
               className="mt-3 font-[family-name:var(--font-poppins)] text-[2rem] font-semibold tracking-[-0.03em] text-foreground sm:text-4xl sm:leading-[1.1]"
             >
-              Portafolio de proyectos integrales
+              Experiencia y proyectos
             </h2>
             <p className="mt-4 max-w-xl font-[family-name:var(--font-inter)] text-base leading-relaxed text-magin-muted sm:text-lg">
-              Cada proyecto combina distintas capacidades según su objetivo.
+              Cada proyecto combina distintas capacidades según su objetivo. Los
+              ejemplos estructurales se sustituyen por evidencia aprobada.
             </p>
           </header>
 
