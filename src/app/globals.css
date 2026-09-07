@@ -467,7 +467,7 @@ body {
   max-width: 46rem;
   height: auto;
   margin-left: auto;
-  transform: translateX(-6cm);
+  transform: translateX(-4cm);
   object-fit: contain;
   object-position: right center;
   background: transparent;
